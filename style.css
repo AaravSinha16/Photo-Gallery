@@ -1,0 +1,30 @@
+body {
+    text-align: center
+}
+
+.home_mainDiv {
+    width: 1000px;
+    height: 500px;
+    border: 1px solid #c7c7c7;
+    padding-left: 0px;
+    padding-right: 0px;
+    float: none;
+    text-align:  center;
+}
+html {
+    scroll-behavior: smooth;
+}
+.img2 {
+    height: 200px;
+     width: 200px;
+}
+.row {
+    margin-top: 200px;
+}
+#myCarousel img {
+    height: 200px;
+    margin-top: 35px;
+}
+#myCarousel {
+    background-color: cadetblue
+}

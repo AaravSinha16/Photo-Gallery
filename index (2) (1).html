@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <title>Photo Gallery</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"> </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <center>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="links"><a href="#home_mainDiv"> Home</a> </li>
+                <li class="links"><a href="#Grids"> Grid View </a></li>
+                <li class="links"><a href="#slide"> Slide View </a></li>
+            </ul>
+        </div>
+        <div id="home_mainDiv">
+            <img class="img-responsive" src="cf9a045e-fed8-427e-990c-e5ff68f28e4d.jfif">
+        </div>
+        <div id="#Grids">
+            <h2>Grid Gallery</h2>
+            <br>
+            <div class="row">
+                <img class="img2" src="5aab8ed2-5f27-414e-818d-c6bc4b769d7c.jfif">
+                <img class="img2" src="e640339d-7389-48f2-bbe2-71aafe2dc74e.jfif">
+                <img class="img2" src="159c7556-fac4-4b02-bded-89cef97e1129.jfif">
+                <img class="img2" src="48c20a9f-05f7-42bb-9519-21ccac0957c0.jfif">
+                <br> <br>
+                <img class="img3" src="93158c76-d4a8-4386-97f3-458004b58aa8.jfif">
+                <img class="img3" src="b684ff66-82c3-4b01-bc0c-2491f9ac6c76.jfif">
+                <img class="img3" src="dbbebb34-c5ed-4c03-aa0d-fa237f911c2a.jfif">
+                <img class="img3" src="b1306aff-d119-4a30-9496-4d0abfa0e082.jfif">
+            </div>
+        </div><br><br>
+        <div id="#slide">
+            <h3>Sliding Gallery</h3>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+
+                    <div class="item active">
+                        <center>
+                            <img src="159c7556-fac4-4b02-bded-89cef97e1129.jfif" class="img-responsive">
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="38786f5d-bbe3-4e26-98ef-81f045fd8c6a.jfif" class="img-responsive">
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="48c20a9f-05f7-42bb-9519-21ccac0957c0.jfif" class="img-responsive">
+                        </center>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </center>
+</body>
+
+</html>
